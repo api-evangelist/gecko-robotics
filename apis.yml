@@ -1,17 +1,43 @@
 aid: gecko-robotics
 name: Gecko Robotics
-description: 'Gecko Robotics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Gecko Robotics is a Pittsburgh, Pennsylvania based AI and robotics company
+  that inspects and manages critical physical infrastructure. Its wall-climbing, aerial
+  and submersible robots capture full-coverage ultrasonic, visual and other sensor
+  readings from boilers, pressure vessels, tanks, pipelines, ship hulls and decks,
+  which are fused with facility records and operational data inside Cantilever, the
+  company''s AI-powered operating platform for the built world. Cantilever quantifies
+  corrosion rates, predicts remaining asset life and prioritizes capital and maintenance
+  decisions for customers across defense, power, oil and gas, steel, pulp and paper,
+  mining and advanced manufacturing. Cantilever is delivered as a closed, authenticated
+  enterprise SaaS at cantilever.app; Gecko Robotics publishes no public developer portal,
+  API documentation, SDKs or self-serve API program, and integrations are arranged
+  through the company directly.'
+image: https://cdn.prod.website-files.com/68a59a8ef600b7a70dac7257/690b58695809610def6dc4db_gecko-webclip.jpg
 url: https://raw.githubusercontent.com/api-evangelist/gecko-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass
 specificationVersion: '0.20'
 created: '2026-07-31'
 modified: '2026-07-31'
+x-enrichment:
+  date: '2026-07-31'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
 tags:
 - Company
+- Robotics
+- Artificial Intelligence
+- Industrial
+- Asset Management
+- Infrastructure
+- Inspection
+- Defense
+- Energy
+- Manufacturing
+- Predictive Maintenance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +45,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gecko-robotics-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/gecko-robotics_stock/
+  url: https://www.geckorobotics.com/
+- type: Blog
+  url: https://www.geckorobotics.com/blog
+- type: Support
+  url: https://www.geckorobotics.com/contact
+- type: Login
+  url: https://cantilever.app/
+- type: TermsOfService
+  url: https://www.geckorobotics.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.geckorobotics.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/GeckoRobotics
+- type: TrustCenter
+  url: security/gecko-robotics-trust-center.yml
+- type: Trust
+  url: https://trust.geckorobotics.com/
+- type: StatusPage
+  url: https://status.cantilever.app/
+- type: Lifecycle
+  url: lifecycle/gecko-robotics-lifecycle.yml
+- type: WellKnown
+  url: well-known/gecko-robotics-well-known.yml
+- type: LLMsTxt
+  url: llms/gecko-robotics-llms.txt
+- type: Packages
+  url: packages/gecko-robotics-packages.yml
+

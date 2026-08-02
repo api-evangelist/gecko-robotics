@@ -1,0 +1,24 @@
+generated: '2026-07-31'
+method: searched
+source: npm, PyPI and the GeckoRobotics GitHub organization
+packages: []
+summary: 'No first-party Gecko Robotics or Cantilever client library exists in any
+  public package registry. Gecko Robotics publishes no public API, so there is nothing
+  for an SDK to wrap.'
+registries_searched:
+- registry: npm
+  query: gecko-robotics / cantilever
+  result: no first-party package; all matches are unrelated projects
+- registry: pypi
+  query: cantilever
+  result: 'pypi.org/project/cantilever exists but is an unrelated "Python toolbox"
+    by author Setepenre (cantilever.readthedocs.io) — NOT Gecko Robotics'
+- registry: github
+  query: https://github.com/GeckoRobotics
+  result: 'organization has 9 public repositories, all of which are FORKS of third-party
+    projects (web_video_server, rosbridge_suite, vive_ros2, mender, roslibpy,
+    wiznet_ioLibrary_Driver, gtsam, atlantis, terraform-gce-atlantis). No first-party
+    library, SDK, or specification is published.'
+notes: 'github.com/gecko-robotics (hyphenated) is a DIFFERENT, unrelated open-source
+  project and must not be attributed to this company; the company org is
+  github.com/GeckoRobotics.'

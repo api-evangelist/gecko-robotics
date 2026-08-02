@@ -1,0 +1,28 @@
+generated: '2026-07-31'
+method: searched
+source: https://status.cantilever.app/
+versioning:
+  scheme: unknown
+  note: No public API versioning policy is published. The Cantilever web application
+    reports an internal build version to its own client, but Gecko Robotics documents
+    no external API version scheme.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No public deprecation or sunset policy found.
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.cantilever.app/
+status_page_platform: Instatus
+status_page_evidence:
+  fetched: '2026-07-31'
+  url: https://status.cantilever.app/
+  http_status: 200
+  detail: 'Instatus-hosted status page titled "Cantilever - Status" with schema.org
+    WebSite markup naming publisher Cantilever.'
+deprecated_operations: []
+notes: 'Gecko Robotics publishes no public API, so there is no external API lifecycle
+  to record beyond the Cantilever platform status page. Recorded here so the status
+  page is discoverable; the deprecation and SLA fields are honest negatives, not gaps
+  awaiting invention.'

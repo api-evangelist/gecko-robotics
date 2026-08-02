@@ -1,0 +1,62 @@
+# Gecko Robotics
+
+> Gecko Robotics is a Pittsburgh, Pennsylvania AI and robotics company for critical
+> physical infrastructure. Wall-climbing, aerial and submersible robots capture
+> full-coverage ultrasonic, visual and other sensor data from boilers, pressure
+> vessels, tanks, pipelines, ship hulls and decks. That data is fused with facility
+> records and operational history inside Cantilever, the company's AI-powered
+> operating platform for the built world, which quantifies corrosion rates, predicts
+> remaining asset life and prioritizes maintenance and capital decisions across
+> defense, power, oil and gas, steel, pulp and paper, mining and advanced
+> manufacturing.
+
+## API availability
+
+Gecko Robotics publishes **no public API, developer portal, API reference, SDK,
+CLI, MCP server, or A2A agent card**. Cantilever is delivered as a closed,
+authenticated enterprise SaaS application at https://cantilever.app/ and access is
+arranged through the company. As of 2026-07-31 an enrichment pass probed the
+company website, the Cantilever application host, and the standard discovery paths
+(`/openapi.json`, `/swagger.json`, `/api-docs`, `/docs`, `/graphql`, `/llms.txt`,
+`/.well-known/*`) and found no machine-readable contract published for third-party
+consumption. Integration inquiries go through the contact page.
+
+## Products
+
+- [Cantilever](https://www.geckorobotics.com/cantilever): AI-powered operating platform for infrastructure asset health
+- [AIR (AI + Robotics)](https://www.geckorobotics.com/air): the robotics and AI data-collection layer behind Cantilever
+- [Sustainment](https://www.geckorobotics.com/sustainment): defense sustainment and readiness applications
+- [Aerial surface scans](https://www.geckorobotics.com/aerial-surface-scans): aerial inspection data capture
+- [Advanced manufacturing](https://www.geckorobotics.com/advanced-manufacturing): manufacturing asset applications
+
+## Industries
+
+- [Defense](https://www.geckorobotics.com/defense)
+- [Power](https://www.geckorobotics.com/power)
+- [Oil and gas](https://www.geckorobotics.com/oil-and-gas)
+- [Steel](https://www.geckorobotics.com/steel)
+- [Pulp and paper](https://www.geckorobotics.com/pulp-and-paper)
+- [Mining](https://www.geckorobotics.com/mining)
+
+## Docs
+
+- [Website](https://www.geckorobotics.com/)
+- [About](https://www.geckorobotics.com/about-us)
+- [Blog](https://www.geckorobotics.com/blog)
+- [News](https://www.geckorobotics.com/news)
+- [Case studies](https://www.geckorobotics.com/case-studies)
+- [Patents](https://www.geckorobotics.com/patents)
+- [Contact](https://www.geckorobotics.com/contact)
+
+## Operations
+
+- [Cantilever application login](https://cantilever.app/)
+- [Cantilever status page](https://status.cantilever.app/)
+- [Trust center](https://trust.geckorobotics.com/)
+- [Terms of use](https://www.geckorobotics.com/terms-of-use)
+- [Privacy policy](https://www.geckorobotics.com/privacy-policy)
+- [GitHub organization](https://github.com/GeckoRobotics)
+
+## Optional
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/gecko-robotics/refs/heads/main/apis.yml)

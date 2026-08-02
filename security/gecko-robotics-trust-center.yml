@@ -1,0 +1,29 @@
+generated: '2026-07-31'
+method: probed
+probe: true
+source: https://trust.geckorobotics.com/
+url: https://trust.geckorobotics.com/
+platform: Vanta Trust Center
+certifications: []
+certifications_note: 'The trust center is a client-rendered Vanta Trust Center; no
+  certification names are present in the anonymously served HTML, and none were found
+  published elsewhere on geckorobotics.com or in public sources. Certifications are
+  therefore recorded as unknown rather than asserted — do not infer SOC 2 / ISO 27001
+  from the presence of the trust center alone. Re-check with a rendering fetch or an
+  access request to upgrade this artifact.'
+evidence:
+- source: https://trust.geckorobotics.com/
+  http_status: 200
+  content_type: text/html
+  title: Gecko Trust Center
+  keywords:
+  - vanta
+  - trust center
+  detail: Page served from assets.vanta.com with data-slugid o1aux9oez13ghe9ykwdjh;
+    canonical link https://trust.geckorobotics.com.
+- source: https://www.geckorobotics.com/
+  detail: Trust center is linked from the geckorobotics.com site footer.
+x-evidence:
+  fetched: '2026-07-31'
+  url: https://trust.geckorobotics.com/
+  http_status: 200

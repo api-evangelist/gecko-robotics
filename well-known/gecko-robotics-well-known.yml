@@ -1,0 +1,50 @@
+generated: '2026-07-31'
+method: probed
+source: live probes of the Gecko Robotics public hosts
+summary: 'No /.well-known/ discovery documents are published. geckorobotics.com returns
+  a 404 with an "Invalid .well-known" body for every probed path. cantilever.app is
+  a single-page application whose catch-all route answers HTTP 200 with the same HTML
+  shell for every path, so its 200s are NOT discovery documents and are recorded as
+  false positives.'
+hosts:
+- host: https://www.geckorobotics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://cantilever.app
+  note: SPA catch-all — every path returns 200 with the same text/html application
+    shell. No document below is a real well-known resource.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    valid: false
+    reason: html-spa-catch-all
+  - path: /.well-known/agent-card.json
+    status: 200
+    valid: false
+    reason: html-spa-catch-all
+  - path: /.well-known/agent.json
+    status: 200
+    valid: false
+    reason: html-spa-catch-all
+  - path: /openapi.json
+    status: 200
+    valid: false
+    reason: html-spa-catch-all
+  - path: /llms.txt
+    status: 200
+    valid: false
+    reason: html-spa-catch-all
+files: []
