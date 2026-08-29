@@ -12,6 +12,17 @@ description: 'Gecko Robotics is a Pittsburgh, Pennsylvania based AI and robotics
   enterprise SaaS at cantilever.app; Gecko Robotics publishes no public developer portal,
   API documentation, SDKs or self-serve API program, and integrations are arranged
   through the company directly.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/68a59a8ef600b7a70dac7257/690b58695809610def6dc4db_gecko-webclip.jpg
 url: https://raw.githubusercontent.com/api-evangelist/gecko-robotics/refs/heads/main/apis.yml
 x-type: company
