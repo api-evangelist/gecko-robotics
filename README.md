@@ -64,14 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gecko Robotics is a Pittsburgh, Pennsylvania AI and robotics company for critical physical infrastructure. Its wall-climbing, aerial and submersible robots capture full-coverage ultrasonic, visual and other sensor readings from boilers, pressure vessels, tanks, pipelines, ship hulls and decks, which are fused with facility records and operational data inside **Cantilever**, the company's AI-powered operating platform for the built world. Cantilever quantifies corrosion rates, predicts remaining asset life and prioritizes capital and maintenance decisions across defense, power, oil and gas, steel, pulp and paper, mining and advanced manufacturing.
+Gecko Robotics is a Pittsburgh, Pennsylvania based AI and robotics company that inspects and manages critical physical infrastructure. Its wall-climbing, aerial and submersible robots capture full-coverage ultrasonic, visual and other sensor readings from boilers, pressure vessels, tanks, pipelines, ship hulls and decks, which are fused with facility records and operational data inside Cantilever, the company's AI-powered operating platform for the built world. Cantilever quantifies corrosion rates, predicts remaining asset life and prioritizes capital and maintenance decisions for customers across defense, power, oil and gas, steel, pulp and paper, mining and advanced manufacturing. Cantilever is delivered as a closed, authenticated enterprise SaaS at cantilever.app; Gecko Robotics publishes no public developer portal, API documentation, SDKs or self-serve API program, and integrations are arranged through the company directly.
 
-## API posture
+**Areas:** Company · Robotics · Artificial Intelligence · Industrial · Asset Management · Infrastructure · Inspection · Defense · Energy · Manufacturing · Predictive Maintenance
 
-**Gecko Robotics publishes no public API.** There is no developer portal, API reference, getting-started guide, SDK, CLI, Postman collection, MCP server, or A2A agent card. Cantilever is a closed, authenticated enterprise SaaS application at [cantilever.app](https://cantilever.app/); integration is arranged directly with the company ("Interested in integrating your tech stack?" on the AIR page). A 2026-07-31 enrichment pass probed the company website, the Cantilever application host and the standard discovery paths (`/openapi.json`, `/swagger.json`, `/api-docs`, `/docs`, `/graphql`, `/llms.txt`, `/.well-known/*`) and found no machine-readable contract published for third-party consumption.
+## Gecko Robotics on APIs.io
 
-- Website — https://www.geckorobotics.com/
-- Cantilever — https://www.geckorobotics.com/cantilever · app: https://cantilever.app/
-- Status — https://status.cantilever.app/
-- Trust center — https://trust.geckorobotics.com/
-- GitHub — https://github.com/GeckoRobotics (9 public repos, all forks of third-party projects)
+Everything profiled for Gecko Robotics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gecko-robotics/](https://apis.io/providers/gecko-robotics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gecko Robotics Domain Security](https://apis.io/security/gecko-robotics/gecko-robotics-domain-security/)
+- [Gecko Robotics Trust Center](https://apis.io/security/gecko-robotics/gecko-robotics-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.geckorobotics.com/)
+- [Support](https://www.geckorobotics.com/contact)
+- [Blog](https://www.geckorobotics.com/blog)
+- [Terms of service](https://www.geckorobotics.com/terms-of-use)
+- [Privacy policy](https://www.geckorobotics.com/privacy-policy)
+- [GitHub](https://github.com/GeckoRobotics)
+- [Status](https://status.cantilever.app/)
+
+## API Evangelist rating
+
+**Kin Score 13.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gecko-robotics/](https://apis.io/providers/gecko-robotics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gecko Robotics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gecko-robotics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
